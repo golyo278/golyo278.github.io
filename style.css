@@ -249,10 +249,12 @@ h2 a{
     padding-right: 0;
     margin: auto 0;
     padding-right: 0;
-font-size: 5.5vw;
-    	padding-bottom: 3vw;
-      font-family: "Akzidenz-Grotesk Std Regular";
+    font-size: 5.5vw;
+    padding-bottom: 3vw;
+    font-family: "Akzidenz-Grotesk Std Regular";
     src: url('AkzidenzGroteskStd-Regular.otf'); 
+    padding-top: 1vw;
+    padding-bottom: 1vw;
   }
 
 .description1 a{
