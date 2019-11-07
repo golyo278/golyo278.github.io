@@ -2,7 +2,7 @@
 
 body{
 	 text-rendering: optimizeLegibility;
-    font-family: "Akzidenz-Grotesk Std Regular";
+    /*font-family: "Akzidenz-Grotesk Std Regular";*/
 }
 
 @font-face {
@@ -179,6 +179,11 @@ span:hover{
 
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
+
+  @font-face {
+    font-family: "Akzidenz-Grotesk Std Regular";
+    src: url('AkzidenzGroteskStd-Regular.otf'); 
+}
  .two{
     box-shadow: 1px 2px 2px #888888;
     padding:0;
@@ -226,6 +231,7 @@ video {
   }
 
   h2{
+    font-family: "Akzidenz-Grotesk Std Regular";
 	width: 100%;
     left:0%;
     padding-right: 0;
@@ -238,6 +244,7 @@ video {
 h2 a{
 	z-index:500;
   font-size: 5.5vw;
+  font-family: "Akzidenz-Grotesk Std Regular";
   }
 .description{
     width: 100%;
