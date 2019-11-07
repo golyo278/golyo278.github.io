@@ -186,7 +186,7 @@ span:hover{
     padding-top: 1vw;
     
 }
- 
+
  .desknav{
  	display:none;
  }
@@ -260,7 +260,7 @@ h2 a{
     padding-bottom: 3vw;
     font-family: "Akzidenz-Grotesk Std Regular";
     src: url('AkzidenzGroteskStd-Regular.otf'); 
-    padding-top: 1vw;
+    padding-top: 1.5vw;
     padding-bottom: 1vw;
   }
 
