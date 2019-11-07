@@ -108,7 +108,8 @@ video{
 	left:32%;
 	text-overflow: hidden;
 	width:65%;
-	font-family: "Akzidenz-Grotesk Std Regular", sans-serif;
+	font-family: "Akzidenz-Grotesk Std Regular";
+  src: url('AkzidenzGroteskStd-Regular.otf'); 
 	font-size: 1.5vw;
 	margin-top: 0;
 	padding-bottom: 1.5vw;
@@ -225,10 +226,11 @@ video {
     padding-right: 0;
     padding-bottom:1.5vw;
     padding-top:1.5vw;
-    font-size: 3vw;
+   font-size: 5.5vw;
   }
 h2 a{
 	z-index:500;
+  font-size: 5.5vw;
   }
 .description{
     width: 100%;
@@ -236,7 +238,9 @@ h2 a{
     padding-right: 0;
     margin: auto 0;
     padding-right: 0;
-    font-size: 3vw;
+    font-size: 5.5vw;
+    font-family: "Akzidenz-Grotesk Std Regular";
+    src: url('AkzidenzGroteskStd-Regular.otf'); 
   }
 
 .description1{
@@ -245,8 +249,10 @@ h2 a{
     padding-right: 0;
     margin: auto 0;
     padding-right: 0;
-    font-size: 3vw;
+font-size: 5.5vw;
     	padding-bottom: 3vw;
+      font-family: "Akzidenz-Grotesk Std Regular";
+    src: url('AkzidenzGroteskStd-Regular.otf'); 
   }
 
 .description1 a{
@@ -255,9 +261,11 @@ h2 a{
     padding-right: 0;
     margin: auto 0;
     padding-right: 0;
-    font-size: 3vw;
+    font-size: 5.5vw;
     text-decoration: none;
     color:black;
+    font-family: "Akzidenz-Grotesk Std Regular";
+    src: url('AkzidenzGroteskStd-Regular.otf'); 
   }
 button {
 	border:none;
