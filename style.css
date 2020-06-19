@@ -171,6 +171,7 @@ span:hover{
 
 .content{
 	display: block;
+  z-index: 5;
 }
 
 }
