@@ -47,6 +47,7 @@ body {
 	font-style: normal;
 	font-size: 42px;
 	line-height: 115%;
+/*	cursor: url(‘assets/right_arrow.svg’), auto;*/
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -133,6 +134,59 @@ main.images {
 	height: 100%;
 	width: 50%;
 }
+.blocks-container {
+	display: inline-block;
+	width: 100vw;
+}
+.block{
+width:100vw;
+padding:0px;
+
+}
+
+.work {
+	width: 80%;
+	height: 100%;
+	object-fit: contain;
+
+}
+
+
+.thumbs-container {
+	display: flex;
+	flex-flow: row wrap;
+	column-gap: 35px;
+	row-gap: 35px;
+	width: 100%;
+}
+
+
+.thumb-container {
+	width: calc(25% - 28px);
+	height: calc(20vw - 20px);
+}
+
+.thumb {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
+
+
+.button-left:hover{
+	cursor: w-resize;
+}
+.button-right:hover{
+	cursor:e-resize; 
+}
+
+/*.button-left:hover{
+	cursor: url(‘assets/images/leftarrow.png’), auto;
+}
+.button-right:hover{
+	cursor: url(‘assets/images/rightarrow.png’), auto;
+}*/
+
 
 footer {
 	bottom: 0;
