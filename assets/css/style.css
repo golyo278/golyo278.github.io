@@ -294,7 +294,6 @@ main.images--mobile {
 }
 
 @media screen and (max-width: 700px) {
-
 	.nav-container {
 		justify-content: right;
 	}
@@ -323,25 +322,39 @@ main.images--mobile {
 	.image-container--mobile {
 		width: 100vw;
 		display: block;
-		align-items: center;
-  	justify-content: center;
 	}
 
 	.image--mobile {
-		padding: 120px 60px 30px;
+		padding: 50px 40px 25px;
 	}
 
-	.image--mobile img {
+	.image--mobile--first {
+		padding-top: 100px;
+	}
+
+	.image--mobile img, .image--mobile video {
 		width: 100%;
-		height: 100%;
-		object-fit: contain;
+		max-height: 60vh;
+		margin-top: 22px;
+	}
+
+	.image--mobile img:first-child {
+		margin-top: 0;
 	}
 
 	.image-caption--mobile {
 		position: relative;
 		font-size: 16px;
 		line-height: 130%;
-		padding: 0 40px 40px;
+		padding: 0 40px 35px;
 	}
 
+	.info-text {
+		padding: 110px 40px;
+		width: 100%;
+	}
+
+	.link--underlined {
+		border-bottom: 2.25px solid black;
+	}
 }
