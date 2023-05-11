@@ -68,12 +68,12 @@ header, footer {
 	display: flex;
 	position: fixed;
 	width: 100%;
-	padding: 25px 40px;
+	margin: 25px 40px;
 }
 
 .home-button-container, .nav-container {
 	display: flex;
-	width: 50%;
+	width: calc(50% - 40px);
 }
 
 .nav-item {
@@ -148,25 +148,27 @@ main.images {
 footer {
 	bottom: 0;
 	display: flex;
-	align-items: flex-end;
 }
 
 footer.images {
-	font-size: 21px;
+	width: calc(100% - 80px);
+	font-size: 18px;
 	letter-spacing: .03em;
 	line-height: 115%;
+	border-top: 1.5px solid black;
+	padding-top: 25px;
 }
 
-.image-caption {
+.caption__headline {
 	width: 50%;
 	padding-right: 40px;
 }
 
-.client {
+.caption__info {
 	width: 25%;
 }
 
-.progress-indicator {
+.caption__progress-indicator {
 	width: 25%;
 	text-align: right;
 }
@@ -289,7 +291,7 @@ main.images--mobile {
 	}
 
 	footer.images {
-		font-size: 17px;
+		font-size: 16px;
 	}
 }
 
@@ -334,15 +336,18 @@ main.images--mobile {
 
 	.image--mobile img, .image--mobile video {
 		width: 100%;
-		max-height: 60vh;
 		margin-top: 22px;
+	}
+
+	.image--mobile video {
+		max-height: 60vh;
 	}
 
 	.image--mobile img:first-child {
 		margin-top: 0;
 	}
 
-	.image-caption--mobile {
+	.caption--mobile {
 		position: relative;
 		font-size: 16px;
 		line-height: 130%;
