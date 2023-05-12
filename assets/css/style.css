@@ -202,6 +202,7 @@ footer.images {
 
 .caption__info {
 	width: 25%;
+	min-height: 62px;
 }
 
 .caption__progress-indicator {
