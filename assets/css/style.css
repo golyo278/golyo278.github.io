@@ -359,6 +359,14 @@ main.images--mobile {
 		font-size: 30px;
 	}
 
+	header, footer {
+		margin: 20px 30px;
+	}
+
+	.home-button-container, .nav-container {
+		width: calc(50% - 30px);
+	}
+
 	main.images--mobile {
 		display: inline-block;
 		width: 100vw;
@@ -373,7 +381,7 @@ main.images--mobile {
 	}
 
 	.image--mobile {
-		padding: 50px 40px 25px;
+		padding: 50px 50px 20px;
 	}
 
 	.image--mobile--first {
@@ -382,7 +390,7 @@ main.images--mobile {
 
 	.image--mobile img, .image--mobile video {
 		width: 100%;
-		margin-top: 22px;
+		margin-top: 10px;
 	}
 
 	.image--mobile video {
@@ -397,13 +405,12 @@ main.images--mobile {
 		position: relative;
 		font-size: 16px;
 		line-height: 130%;
-		padding: 0 40px 35px;
+		padding: 0 30px 30px;
 	}
 
 	main.index {
 		display: none;
 	}
-
 
 	.dropdown--mobile {
 	  position: relative;
