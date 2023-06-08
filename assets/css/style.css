@@ -333,15 +333,56 @@ main.images--mobile {
 
 	footer.images {
 		font-size: 16px;
+		display: flex;
+		flex-direction: column;
 	}
 
 	.thumb-container {
 		width: calc(33% - 23px);
 		height: calc(20vw - 20px);
 	}
+
+	footer.images > div {
+		padding-bottom: 5px;
+	}
+
+	.caption__headline {
+		width: 100%;
+    	padding-right: 0;
+	}
+
+	.caption__info {
+		width: 100%;
+    	min-height: 0;
+    	display: flex;
+		flex-wrap: wrap;
+	}
+
+	.caption__info > div {
+		padding-right: 7px;
+	}
+
+	.caption__work-type::after,
+	.caption__client::after {
+		content: ", "
+	}
+
+	.caption__progress-indicator {
+		width: 100%;
+    	text-align: left;
+	}
 }
 
 @media screen and (max-width: 700px) {
+	main.index {
+		padding: 145px 30px 25px;
+	}
+	
+	.thumb-container {
+		width: calc(50% - 20px);
+		height: calc(30vw - 20px);
+	}
+
 	.nav-container {
 		justify-content: right;
 	}
@@ -363,6 +404,10 @@ main.images--mobile {
 		margin: 20px 30px;
 	}
 
+	footer.images {
+		width: calc(100% - 60px);
+	}
+
 	.home-button-container, .nav-container {
 		width: calc(50% - 30px);
 	}
@@ -373,6 +418,48 @@ main.images--mobile {
 		position: absolute;
 		top: 0;
 		left: 0;
+	}
+
+	.image-container {
+		width: calc(100vw - 60px);
+   		height: 70vh;
+	}
+
+	.image-container--flex {
+		width: calc(100vw - 60px);
+		column-gap: 3vw;
+		row-gap: 3vw;
+    	flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.image--lg {
+		width: calc(100vw - 60px);
+	}
+
+	.image--md {
+		/* width: 57vw; */
+		width: 100vw;
+    	max-height: 25vh;
+	}
+
+	.image--m {
+		width: calc(50vw - 35px);
+	}
+
+	.image--sm {
+		width: 25vw;
+	}
+
+	.image--xs {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		column-gap: 3vw;
+	}
+
+	.image--xs > img {
+		width: calc(50% - 3vw);
 	}
 
 	.image-container--mobile {
@@ -406,10 +493,6 @@ main.images--mobile {
 		font-size: 16px;
 		line-height: 130%;
 		padding: 0 30px 30px;
-	}
-
-	main.index {
-		display: none;
 	}
 
 	.dropdown--mobile {
@@ -470,7 +553,7 @@ main.images--mobile {
 	}
 
 	.info-text {
-		padding: 110px 40px;
+		padding: 145px 30px;
 		width: 100%;
 	}
 
